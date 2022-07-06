@@ -1,0 +1,68 @@
+Animal
+----------
++ name: String
++ species: String
++ age: int 
+----------
++ move()
++ eat()
++ sleep()
+
+Fish(Animal)
+----------
++ colors: string
+
+Snake(Animal)
+----------
++ group: string
+
+Person(Animal)
+----------
++ weight: float
+
+Book
+----------
++ name: String
++ author: String
++ year published: int
++ ISBN: int
++ genre: string
+----------
++ read()
+
+Textbook(Book)
+----------
++ objective: string
+
+Address book(Book)
+----------
++ city: string
++ state: string
++ zopcode: int
+
+Vehicle
+----------
++ make: string
++ model: string
++ color: string
++ VIN: int
+----------
++ run()
++ brake()
+
+Car(Vehicle)
+----------
++ type: string
+
+Bicycle(Vehicle)
+----------
++ color: string
+
+Boat(Vehicle)
+----------
++ type: string
+
+Hot-air Balloon(Vehicle)
+----------
++ size: float
+
